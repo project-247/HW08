@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Unreal_Project/HW08/SpartaProject/Content/UI/WBP_HUD.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Blueprints/BP_SpartaPlayerController.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/UI/WBP_MainMenu.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Maps/MenuLevel.umap",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/UI/WBP_HP.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Blueprints/BP_SpartaCharacter.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Blueprints/BP_MineItem.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Blueprints/BP_HealingItem.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Blueprints/BP_SmallCoinItem.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Blueprints/BP_BigCoinItem.uasset"
+			]
+		}
+	]
+}

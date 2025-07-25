@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal_project\\hw08\\spartaproject\\source\\spartaproject\\smallcoinitem.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal_project\\hw08\\spartaproject\\intermediate\\build\\win64\\x64\\spartaprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal_project\\hw08\\spartaproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\spartaproject\\definitions.spartaproject.h",
+            "d:\\unreal_project\\hw08\\spartaproject\\source\\spartaproject\\smallcoinitem.h",
+            "d:\\unreal_project\\hw08\\spartaproject\\source\\spartaproject\\coinitem.h",
+            "d:\\unreal_project\\hw08\\spartaproject\\source\\spartaproject\\baseitem.h",
+            "d:\\unreal_project\\hw08\\spartaproject\\source\\spartaproject\\iteminterface.h",
+            "d:\\unreal_project\\hw08\\spartaproject\\intermediate\\build\\win64\\unrealeditor\\inc\\spartaproject\\uht\\iteminterface.generated.h",
+            "d:\\unreal_project\\hw08\\spartaproject\\intermediate\\build\\win64\\unrealeditor\\inc\\spartaproject\\uht\\baseitem.generated.h",
+            "d:\\unreal_project\\hw08\\spartaproject\\intermediate\\build\\win64\\unrealeditor\\inc\\spartaproject\\uht\\coinitem.generated.h",
+            "d:\\unreal_project\\hw08\\spartaproject\\intermediate\\build\\win64\\unrealeditor\\inc\\spartaproject\\uht\\smallcoinitem.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
