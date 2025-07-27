@@ -15,7 +15,7 @@ struct FInputActionValue;
 #endif
 #define SPARTAPROJECT_SpartaCharacter_generated_h
 
-#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execStopSprint); \
 	DECLARE_FUNCTION(execStartSprint); \
 	DECLARE_FUNCTION(execLook); \
@@ -26,7 +26,7 @@ struct FInputActionValue;
 	DECLARE_FUNCTION(execGetHealth);
 
 
-#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASpartaCharacter(); \
 	friend struct Z_Construct_UClass_ASpartaCharacter_Statics; \
@@ -35,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(ASpartaCharacter)
 
 
-#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ASpartaCharacter(ASpartaCharacter&&); \
@@ -47,13 +47,13 @@ public: \
 	NO_API virtual ~ASpartaCharacter();
 
 
-#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_12_PROLOG
-#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_15_GENERATED_BODY \
+#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_13_PROLOG
+#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaCharacter_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

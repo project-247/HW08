@@ -14,13 +14,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SPARTAPROJECT_SpartaGameState_generated_h
 
-#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnGameOver); \
 	DECLARE_FUNCTION(execAddScore); \
 	DECLARE_FUNCTION(execGetScore);
 
 
-#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_10_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASpartaGameState(); \
 	friend struct Z_Construct_UClass_ASpartaGameState_Statics; \
@@ -29,7 +29,7 @@ public: \
 	DECLARE_SERIALIZER(ASpartaGameState)
 
 
-#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_10_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ASpartaGameState(ASpartaGameState&&); \
@@ -41,13 +41,13 @@ public: \
 	NO_API virtual ~ASpartaGameState();
 
 
-#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_7_PROLOG
-#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_10_GENERATED_BODY \
+#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_17_PROLOG
+#define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_10_INCLASS_NO_PURE_DECLS \
-	FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_10_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_20_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaGameState_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

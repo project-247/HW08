@@ -1,12 +1,14 @@
 ﻿#include "SpartaCharacter.h"
 #include "SpartaPlayerController.h"
 #include "SpartaGameState.h"
+#include "SpartaGameInstance.h"
 #include "EnhancedInputComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Components/WidgetComponent.h"
 #include "Components/TextBlock.h"
+
 
 ASpartaCharacter::ASpartaCharacter()
 {
@@ -25,8 +27,8 @@ ASpartaCharacter::ASpartaCharacter()
 	OverheadWidget->SetupAttachment(GetMesh());
 	OverheadWidget->SetWidgetSpace(EWidgetSpace::Screen);
 
-	NormalSpeed = 600.0f;
-	SprintSpeedMultiplier = 1.7f;
+	NormalSpeed = 500.0f;
+	SprintSpeedMultiplier = 1.3f;
 	SprintSpeed = NormalSpeed * SprintSpeedMultiplier;
 
 	GetCharacterMovement()->MaxWalkSpeed = NormalSpeed;
@@ -207,5 +209,19 @@ void ASpartaCharacter::UpdateOverheadHP()
 	if (UTextBlock* HPText = Cast<UTextBlock>(OverheadWidgetInstance->GetWidgetFromName(TEXT("OverHeadHP"))))
 	{
 		HPText->SetText(FText::FromString(FString::Printf(TEXT("%.0f / %.0f"), Health, MaxHealth)));
+	}
+
+	if (APlayerController* PlayerController = GetWorld()->GetFirstPlayerController())
+	{
+		ASpartaPlayerController* SpartaPlayerController = Cast<ASpartaPlayerController>(PlayerController);
+		{
+			if (UUserWidget* HUDWidget = SpartaPlayerController->GetHUDWidget())
+			{
+				if (UTextBlock* HPText = Cast<UTextBlock>(HUDWidget->GetWidgetFromName(TEXT("HP"))))
+				{
+					HPText->SetText(FText::FromString(FString::Printf(TEXT("%.0f / %.0f"), Health, MaxHealth)));
+				}
+			}
+		}
 	}
 }

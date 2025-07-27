@@ -16,6 +16,7 @@ class UUserWidget;
 #define SPARTAPROJECT_SpartaPlayerController_generated_h
 
 #define FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaPlayerController_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execQuitGame); \
 	DECLARE_FUNCTION(execStartGame); \
 	DECLARE_FUNCTION(execShowMainMenu); \
 	DECLARE_FUNCTION(execShowGameHUD); \

@@ -65,6 +65,36 @@ DEFINE_FUNCTION(ASpartaPlayerController::execGetHUDWidget)
 }
 // End Class ASpartaPlayerController Function GetHUDWidget
 
+// Begin Class ASpartaPlayerController Function QuitGame
+struct Z_Construct_UFunction_ASpartaPlayerController_QuitGame_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Menu" },
+		{ "ModuleRelativePath", "SpartaPlayerController.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ASpartaPlayerController_QuitGame_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASpartaPlayerController, nullptr, "QuitGame", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ASpartaPlayerController_QuitGame_Statics::Function_MetaDataParams), Z_Construct_UFunction_ASpartaPlayerController_QuitGame_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_ASpartaPlayerController_QuitGame()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ASpartaPlayerController_QuitGame_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ASpartaPlayerController::execQuitGame)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->QuitGame();
+	P_NATIVE_END;
+}
+// End Class ASpartaPlayerController Function QuitGame
+
 // Begin Class ASpartaPlayerController Function ShowGameHUD
 struct Z_Construct_UFunction_ASpartaPlayerController_ShowGameHUD_Statics
 {
@@ -197,6 +227,7 @@ void ASpartaPlayerController::StaticRegisterNativesASpartaPlayerController()
 	UClass* Class = ASpartaPlayerController::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
 		{ "GetHUDWidget", &ASpartaPlayerController::execGetHUDWidget },
+		{ "QuitGame", &ASpartaPlayerController::execQuitGame },
 		{ "ShowGameHUD", &ASpartaPlayerController::execShowGameHUD },
 		{ "ShowMainMenu", &ASpartaPlayerController::execShowMainMenu },
 		{ "StartGame", &ASpartaPlayerController::execStartGame },
@@ -274,6 +305,7 @@ struct Z_Construct_UClass_ASpartaPlayerController_Statics
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_ASpartaPlayerController_GetHUDWidget, "GetHUDWidget" }, // 52811969
+		{ &Z_Construct_UFunction_ASpartaPlayerController_QuitGame, "QuitGame" }, // 1216082732
 		{ &Z_Construct_UFunction_ASpartaPlayerController_ShowGameHUD, "ShowGameHUD" }, // 1672016896
 		{ &Z_Construct_UFunction_ASpartaPlayerController_ShowMainMenu, "ShowMainMenu" }, // 2761421176
 		{ &Z_Construct_UFunction_ASpartaPlayerController_StartGame, "StartGame" }, // 2185274908
@@ -345,10 +377,10 @@ ASpartaPlayerController::~ASpartaPlayerController() {}
 struct Z_CompiledInDeferFile_FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaPlayerController_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASpartaPlayerController, ASpartaPlayerController::StaticClass, TEXT("ASpartaPlayerController"), &Z_Registration_Info_UClass_ASpartaPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASpartaPlayerController), 888309500U) },
+		{ Z_Construct_UClass_ASpartaPlayerController, ASpartaPlayerController::StaticClass, TEXT("ASpartaPlayerController"), &Z_Registration_Info_UClass_ASpartaPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASpartaPlayerController), 3527230813U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaPlayerController_h_648595998(TEXT("/Script/SpartaProject"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaPlayerController_h_849276526(TEXT("/Script/SpartaProject"),
 	Z_CompiledInDeferFile_FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Project_HW08_SpartaProject_Source_SpartaProject_SpartaPlayerController_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

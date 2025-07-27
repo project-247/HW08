@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpartaProjectModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6dce3de3c88afcf6b6aba32e68d70a2616a062ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efa4be643d7e8a9a98bc8ee201d1dd72205d2ff2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpartaProjectModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpartaProjectModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

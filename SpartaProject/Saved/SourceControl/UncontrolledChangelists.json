@@ -14,7 +14,25 @@
 				"D:/Unreal_Project/HW08/SpartaProject/Content/Blueprints/BP_MineItem.uasset",
 				"D:/Unreal_Project/HW08/SpartaProject/Content/Blueprints/BP_HealingItem.uasset",
 				"D:/Unreal_Project/HW08/SpartaProject/Content/Blueprints/BP_SmallCoinItem.uasset",
-				"D:/Unreal_Project/HW08/SpartaProject/Content/Blueprints/BP_BigCoinItem.uasset"
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Blueprints/BP_BigCoinItem.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Target/SpartaTarget.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Maps/BasicLevel.umap",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Target/SpartaTargetState.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Target/BP_SpartaTarget.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Inputs/IA_Reload.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Inputs/IA_SwapMain.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Inputs/IMC_Character.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Gun/BP_Gun.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Inputs/IA_Fire.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Gun/BP_Bullet.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Gun/BP_Gun_AR.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Gun/BP_Gun_SMG.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Gun/UseTypeOfGun.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Inputs/IA_SwapSub.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Gun/FireModeOfGun.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Inputs/IA_FireMode.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/Blueprints/BP_SpartaGameMode.uasset",
+				"D:/Unreal_Project/HW08/SpartaProject/Content/SpartaBFL.uasset"
 			]
 		}
 	]
