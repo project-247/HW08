@@ -17,6 +17,7 @@ ASpartaPlayerController::ASpartaPlayerController()
 	MainMenuWidgetClass(nullptr),
 	MainMenuWidgetInstance(nullptr)
 {
+
 }
 
 void ASpartaPlayerController::BeginPlay()
